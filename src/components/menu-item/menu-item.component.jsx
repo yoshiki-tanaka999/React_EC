@@ -2,7 +2,9 @@ import React from 'react';
 
 import './menu-item.styles.scss';
 
+// directoryコンポーネントから渡された、propsを引数にする
 const menuItem = ({ title, imageUrl, size }) => (
+    // 渡されたdataで、動的にスタイリングする
     <div style={{
         backgroundImage: `url(${imageUrl})`
     }}
