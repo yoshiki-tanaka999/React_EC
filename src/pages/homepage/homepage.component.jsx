@@ -7,7 +7,7 @@ import './homepage.styles.scss'
 const HomePage = () => (
     <div className='homepage'>
         {/* Directoryに移動 */}
-        <Directory/>
+        <Directory />
     </div>
 );
 export default HomePage;
