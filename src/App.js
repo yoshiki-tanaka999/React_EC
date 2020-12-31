@@ -55,7 +55,7 @@ class App extends React.Component {
           {/* ベースとなるルーティング */}
           {/* exactがないと、「/hats」の時、「/」も含まれたルーティングになってしまう */}
           <Route exact path='/' component={HomePage} />
-          <Route exact path='/shop' component={ ShopPage } />
+          <Route path='/shop' component={ ShopPage } />
           <Route exact path='/checkout' component={ CheckoutPage } />
           <Route 
             exact 
